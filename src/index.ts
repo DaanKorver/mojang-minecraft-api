@@ -14,30 +14,14 @@ const MojangApi = axios.create({
     }
 })
 
-/**
- * Fetches the requested URL
- * @param {string} url - The URL that needs to be accessed
- * @returns {Object} - An Object with the requested data
- */
 async function _get(url: string) {
     return (await axios.get(url)).data
 }
 
-/**
- * Fetches the requested URL
- * @param {string} url - The URL that needs to be accessed
- * @returns {Object} - An Object with the requested data
- */
 async function _mojangApiGet(url: string) {
     return (await MojangApi.get(url)).data
 }
 
-/**
- * Fetches the requested URL
- * @param {string} url - The URL that needs to be accessed
- * @param {Array.<string>} body - The payload of the request
- * @returns {Object} - An Object with the requested data
- */
 async function __mojangApiPost(url: string, body: Array<string>) {
     return (await MojangApi.post(url, body)).data
 }
@@ -152,15 +136,6 @@ export async function getSkinURLByName(username: string) {
     })
 }
 
-/**
- * Crops a image
- * @param {string} skinURL - The URL of the skin
- * @param {number} x - The x coordinate of the image
- * @param {number} y - The y coordinate of the image 
- * @param {number} w - The width of the image
- * @param {number} h - The height of the image
- * @returns {string} - This will return a base64 string of the cropped image
- */
 async function getCroppedImage(skinURL: string, x: number, y: number, w: number, h: number) {
     return new Promise(resolve=>{
         clipper.loadImageFromUrl(skinURL, ()=>{

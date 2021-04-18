@@ -9,15 +9,6 @@ npm install mojang-minecraft-api
 ## Functions
 
 <dl>
-<dt><a href="#_get">_get(url)</a> ⇒ <code>Object</code></dt>
-<dd><p>Fetches the requested URL</p>
-</dd>
-<dt><a href="#_mojangApiGet">_mojangApiGet(url)</a> ⇒ <code>Object</code></dt>
-<dd><p>Fetches the requested URL</p>
-</dd>
-<dt><a href="#__mojangApiPost">__mojangApiPost(url, body)</a> ⇒ <code>Object</code></dt>
-<dd><p>Fetches the requested URL</p>
-</dd>
 <dt><a href="#getServiceStatus">getServiceStatus()</a> ⇒ <code>Object</code></dt>
 <dd><p>Gets the current service status of various Mojang services</p>
 </dd>
@@ -51,9 +42,6 @@ npm install mojang-minecraft-api
 <dt><a href="#getSkinURLByName">getSkinURLByName(username)</a> ⇒ <code>string</code></dt>
 <dd><p>Gets the skin URL of a player</p>
 </dd>
-<dt><a href="#getCroppedImage">getCroppedImage(skinURL, x, y, w, h)</a> ⇒ <code>string</code></dt>
-<dd><p>Crops a image</p>
-</dd>
 <dt><a href="#getPlayerHead">getPlayerHead(uuid)</a> ⇒ <code>string</code></dt>
 <dd><p>Gets the player head image of a player</p>
 </dd>
@@ -61,43 +49,6 @@ npm install mojang-minecraft-api
 <dd><p>Gets the player head image of a player</p>
 </dd>
 </dl>
-
-<a name="_get"></a>
-
-## \_get(url) ⇒ <code>Object</code>
-Fetches the requested URL
-
-**Kind**: global function
-**Returns**: <code>Object</code> - - An Object with the requested data
-
-| Param | Type | Description |
-| --- | --- | --- |
-| url | <code>string</code> | The URL that needs to be accessed |
-
-<a name="_mojangApiGet"></a>
-
-## \_mojangApiGet(url) ⇒ <code>Object</code>
-Fetches the requested URL
-
-**Kind**: global function
-**Returns**: <code>Object</code> - - An Object with the requested data
-
-| Param | Type | Description |
-| --- | --- | --- |
-| url | <code>string</code> | The URL that needs to be accessed |
-
-<a name="__mojangApiPost"></a>
-
-## \_\_mojangApiPost(url, body) ⇒ <code>Object</code>
-Fetches the requested URL
-
-**Kind**: global function
-**Returns**: <code>Object</code> - - An Object with the requested data
-
-| Param | Type | Description |
-| --- | --- | --- |
-| url | <code>string</code> | The URL that needs to be accessed |
-| body | <code>Array.&lt;string&gt;</code> | The payload of the request |
 
 <a name="getServiceStatus"></a>
 
@@ -226,29 +177,13 @@ Gets the skin URL of a player
 | --- | --- | --- |
 | username | <code>string</code> | The username of the player |
 
-<a name="getCroppedImage"></a>
-
-## getCroppedImage(skinURL, x, y, w, h) ⇒ <code>string</code>
-Crops a image
-
-**Kind**: global function
-**Returns**: <code>string</code> - - This will return a base64 string of the cropped image
-
-| Param | Type | Description |
-| --- | --- | --- |
-| skinURL | <code>string</code> | The URL of the skin |
-| x | <code>number</code> | The x coordinate of the image |
-| y | <code>number</code> | The y coordinate of the image |
-| w | <code>number</code> | The width of the image |
-| h | <code>number</code> | The height of the image |
-
 <a name="getPlayerHead"></a>
 
 ## getPlayerHead(uuid) ⇒ <code>string</code>
 Gets the player head image of a player
 
 **Kind**: global function
-**Returns**: <code>string</code> - - This will return a base64 string of the player head image (8x8)  
+**Returns**: <code>string</code> - - This will return a base64 string of the player head image (8x8)
 
 | Param | Type | Description |
 | --- | --- | --- |

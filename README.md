@@ -1,3 +1,7 @@
+[![npm version](https://badgen.net/npm/v/mojang-minecraft-api)](https://www.npmjs.com/package/mojang-minecraft-api)
+[![npm license](https://badgen.net/npm/license/mojang-minecraft-api)](https://www.npmjs.com/package/mojang-minecraft-api)
+[![npm module downloads](https://badgen.net/npm/dt/mojang-minecraft-api)](https://www.npmjs.com/package/mojang-minecraft-api)
+
 # mojang-minecraft-api
 🎮 Wrapper for the [Mojang](https://wiki.vg/Mojang_API) API
 

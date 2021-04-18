@@ -15,7 +15,13 @@
     "type": "git",
     "url": "https://github.com/DaanKorver/mojang-minecraft-api.git"
   },
-  "keywords": [],
+  "keywords": [
+    "mojang",
+    "minecraft",
+    "async",
+    "promise",
+    "api"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

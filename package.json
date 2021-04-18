@@ -4,7 +4,7 @@
   "description": "🎮 Wrapper for the Mojang API",
   "main": "lib/index.js",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@daankorver"
+    "registry": "https://npm.pkg.github.com/daankorver"
   },
   "types": "lib",
   "scripts": {

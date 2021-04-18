@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "🎮 Wrapper for the Mojang API",
   "main": "lib/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@daankorver"
+  },
   "types": "lib",
   "scripts": {
     "build": "tsc -p .",

@@ -1,12 +1,12 @@
 {
   "name": "mojang-minecraft-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🎮 Wrapper for the Mojang API",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
     "build": "tsc -p .",
-    "doc" : "jsdoc2md lib/index.js"
+    "doc": "jsdoc2md lib/index.js"
   },
   "repository": {
     "type": "git",

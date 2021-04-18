@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaanKorver/mojang-minecraft-api.git"
+    "url": "https://github.com/DaanKorver/mojang-minecraft-api.git"
   },
   "keywords": [],
   "author": "",
